@@ -17,7 +17,7 @@ public class TestController {
 		Employee emp = new Employee();
 		emp.setName("emp1");
 		emp.setDesignation("manager");
-		emp.setEmpId("1");
+		emp.setEmpId("2");
 		emp.setSalary(30000);
 		
 		if(emp.getName().equalsIgnoreCase("emp1"))
@@ -39,4 +39,5 @@ public class TestController {
 	}
 	
 }
+
 
