@@ -45,7 +45,7 @@ public class ConsumerControllerClient {
 
 	private static HttpEntity<?> getHeaders() throws IOException {
 		HttpHeaders headers = new HttpHeaders();
-		headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
+		headers.set("Accept",  MediaType.APPLICATION_JSON_VALUE);
 		return new HttpEntity<>(headers);
 	}
 }
